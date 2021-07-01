@@ -4,7 +4,7 @@ This HelloID Service Automation Delegated Form uses the [Exchange Online PowerSh
 
 <!-- Description -->
 ## Description
-This HelloID Service Automation Delegated Form provides an Exchange Online report containing the user accounts who have access to the specified mailbox. The following options are available:
+This HelloID Service Automation Delegated Form provides an Exchange Online report containing the AD user accounts who have access to the specified mailbox. The following options are available:
  1. Overview of AD user accounts that match this report
 
 <!-- TABLE OF CONTENTS -->
@@ -39,7 +39,7 @@ After the all-in-one PowerShell script has run and created all the required reso
 This Delegated Form uses the following resources in order to run
 
 ### Powershell data source 'mailbox-generate-users-with-permission-userprincipalname'
-This Powershell data source runs an Exchange Online query to select the user accounts that match this report.
+This Powershell data source runs an Exchange Online and AD query to select the user accounts that match this report.
 
 # HelloID Docs
 The official HelloID documentation can be found at: https://docs.helloid.com/
