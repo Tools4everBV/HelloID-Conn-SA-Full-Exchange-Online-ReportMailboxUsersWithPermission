@@ -1,0 +1,81 @@
+[
+    {
+        "key":  "userPrincipalName",
+        "templateOptions":  {
+                                "label":  "UserPrincipalName of Mailbox",
+                                "required":  true
+                            },
+        "type":  "input",
+        "summaryVisibility":  "Show",
+        "requiresTemplateOptions":  true,
+        "requiresKey":  true
+    },
+    {
+        "key":  "gridUsersPermissions",
+        "templateOptions":  {
+                                "label":  "Users with permissions",
+                                "required":  false,
+                                "grid":  {
+                                             "columns":  [
+                                                             {
+                                                                 "headerName":  "Permission",
+                                                                 "field":  "Permission"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Display Name",
+                                                                 "field":  "DisplayName"
+                                                             },
+                                                             {
+                                                                 "headerName":  "UserPrincipalName",
+                                                                 "field":  "UserPrincipalName"
+                                                             },
+                                                             {
+                                                                 "headerName":  "SamAccountName",
+                                                                 "field":  "SamAccountName"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Mail",
+                                                                 "field":  "Mail"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Employee Id",
+                                                                 "field":  "EmployeeId"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Description",
+                                                                 "field":  "Description"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Inherited From Group",
+                                                                 "field":  "InheritedFromGroup"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Group",
+                                                                 "field":  "Group"
+                                                             }
+                                                         ],
+                                             "height":  300,
+                                             "rowSelection":  "single"
+                                         },
+                                "dataSourceConfig":  {
+                                                         "dataSourceGuid":  "$dataSourceGuid_0",
+                                                         "input":  {
+                                                                       "propertyInputs":  [
+                                                                                              {
+                                                                                                  "propertyName":  "UserPrincipalName",
+                                                                                                  "otherFieldValue":  {
+                                                                                                                          "otherFieldKey":  "userPrincipalName"
+                                                                                                                      }
+                                                                                              }
+                                                                                          ]
+                                                                   }
+                                                     },
+                                "useFilter":  true,
+                                "useDefault":  false
+                            },
+        "type":  "grid",
+        "summaryVisibility":  "Show",
+        "requiresTemplateOptions":  true,
+        "requiresKey":  true
+    }
+]

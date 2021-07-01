@@ -1,0 +1,38 @@
+[
+    {
+        "key":  "Permission",
+        "type":  0
+    },
+    {
+        "key":  "Group",
+        "type":  0
+    },
+    {
+        "key":  "UserPrincipalName",
+        "type":  0
+    },
+    {
+        "key":  "InheritedFromGroup",
+        "type":  0
+    },
+    {
+        "key":  "EmployeeId",
+        "type":  0
+    },
+    {
+        "key":  "SamAccountName",
+        "type":  0
+    },
+    {
+        "key":  "DisplayName",
+        "type":  0
+    },
+    {
+        "key":  "Mail",
+        "type":  0
+    },
+    {
+        "key":  "Description",
+        "type":  0
+    }
+]
