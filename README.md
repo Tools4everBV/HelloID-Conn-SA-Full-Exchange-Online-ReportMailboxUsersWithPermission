@@ -7,6 +7,12 @@ This HelloID Service Automation Delegated Form uses the [Exchange Online PowerSh
 This HelloID Service Automation Delegated Form provides an Exchange Online report containing the AD user accounts who have access to the specified mailbox. The following options are available:
  1. Overview of AD user accounts that match this report
 
+## Versioning
+| Version | Description | Date |
+| - | - | - |
+| 1.0.1   | Added version number and updated all-in-one script | 2021/11/16  |
+| 1.0.0   | Initial release | 2021/04/29  |
+
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 * [Description](#description)
@@ -41,5 +47,8 @@ This Delegated Form uses the following resources in order to run
 ### Powershell data source 'mailbox-generate-users-with-permission-userprincipalname'
 This Powershell data source runs an Exchange Online and AD query to select the user accounts that match this report.
 
-# HelloID Docs
+## Getting help
+_If you need help, feel free to ask questions on our [forum](https://forum.helloid.com/forum/helloid-connectors/service-automation/93-helloid-sa-exchange-online-list-users-with-permissions-to-mailbox)_
+
+## HelloID Docs
 The official HelloID documentation can be found at: https://docs.helloid.com/
